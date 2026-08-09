@@ -83,7 +83,7 @@ package_restart.sh      ← プログラム修正時の自動ビルド＆再起�
 ### ① Webアプリを起動
 Tomcat を起動し、以下へアクセス：
 
-http://localhost:8080/your-app/
+http://localhost:8090/md_viewer_java/
 
 ### ② フォルダまたはファイルを選択
 左メニューの ▼ をクリック：
