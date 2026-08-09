@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>FileSelectServlet</servlet-name>
+        <servlet-class>viewer.FileSelectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FileSelectServlet</servlet-name>
+        <url-pattern>/select</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MdRenderServlet</servlet-name>
+        <servlet-class>viewer.MdRenderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MdRenderServlet</servlet-name>
+        <url-pattern>/render</url-pattern>
+    </servlet-mapping>
+</web-app>
