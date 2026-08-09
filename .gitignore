@@ -57,11 +57,20 @@ tomcat/webapps/md_viewer_vjava.war
 *.iml
 out/
 
-# Eclipse
+# Eclipse（既に入っていたもの）
 .project
 .classpath
 .settings/
 bin/
+
+# Eclipse（不足していたので追加）
+.metadata/
+.recommenders/
+*.prefs
+.factorypath
+.apt_generated/
+.checkstyle/
+.externalToolBuilders/
 
 # ============================
 # Java Webアプリ固有
